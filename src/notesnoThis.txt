@@ -1,0 +1,6 @@
+// as the there are no local variables by name title , or director so, here they will implicitly referred to global variable
+//note: if title and director are not globally declare then it will be undeclared variable cannot be resolved
+// if the parameter names are similar names to the global variable
+// then there is an ambiguity between the local variable (parameter) and global variable 
+// hence this. prefix is used for referring the global variable
+//title=title will be refering the local variable on both side of the = operator (x=x) self assigning
